@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 136" width="144" height="136" role="img"
+  aria-label="Command key">
+  <defs>
+    <linearGradient id="keycapFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D4DCE1" />
+      <stop offset="1" stop-color="#C2CCD3" />
+    </linearGradient>
+  </defs>
+  <!-- Darker rim peeking out at the bottom -->
+  <rect x="0" y="8" width="144" height="128" rx="24" ry="24" fill="#8FA4AD" />
+  <!-- Top face -->
+  <rect x="0" y="0" width="144" height="120" rx="24" ry="24" fill="url(#keycapFace)" />
+  <!-- Command glyph -->
+  <g transform="translate(36 24) scale(3)" fill="none" stroke="#546E7B" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <path d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3" />
+  </g>
+</svg>
