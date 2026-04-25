@@ -84,6 +84,7 @@ def test_root_packaging_metadata_matches_layout():
 
     assert pyproject["project"]["name"] == "comfyui-command-palette"
     assert package_json["name"] == "comfyui-command-palette"
+    assert tool_comfy["PublisherId"] == "pbanddev"
     assert tool_comfy["includes"] == ["dist"]
     assert any(file_config["filename"] == "frontend/src/index.ts" for file_config in bump_files)
 

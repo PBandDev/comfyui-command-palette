@@ -16,7 +16,7 @@ dev = [
 Repository = "https://github.com/PBandDev/comfyui-command-palette"
 
 [tool.comfy]
-PublisherId = "PBandDev"
+PublisherId = "pbanddev"
 DisplayName = "ComfyUI Command Palette"
 Icon = "https://raw.githubusercontent.com/PBandDev/comfyui-command-palette/main/assets/icon.svg"
 requires-comfyui = ">=0.14.0"
