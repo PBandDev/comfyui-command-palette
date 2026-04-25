@@ -46,7 +46,7 @@ app.registerExtension({
   settings: [
     {
       id: SETTINGS_IDS.VERSION,
-      name: "Version 1.0.2",
+      name: "Version 1.0.3",
       type: () => {
         const spanEl = document.createElement("span");
         spanEl.insertAdjacentHTML(

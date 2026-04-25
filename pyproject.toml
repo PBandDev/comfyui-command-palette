@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-command-palette"
 description = "A command palette extension for ComfyUI"
-version = "1.0.2"
+version = "1.0.3"
 requires-python = ">=3.12"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -23,7 +23,7 @@ requires-comfyui = ">=0.14.0"
 includes = ['dist']
 
 [tool.bumpversion]
-current_version = "1.0.2"
+current_version = "1.0.3"
 parse = "(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)"
 serialize = ["{major}.{minor}.{patch}"]
 commit = false
