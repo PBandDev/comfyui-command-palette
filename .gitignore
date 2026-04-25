@@ -30,3 +30,5 @@ docs/specs/
 .e2e/
 test-results/
 playwright-report/
+demo/
+skills-lock.json

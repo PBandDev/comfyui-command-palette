@@ -1,6 +1,11 @@
 {
   "version": 1,
   "skills": {
+    "cinematic-script-writer": {
+      "source": "praveenspeaks/cinematic-script-writer",
+      "sourceType": "github",
+      "computedHash": "2e5433a50ce88e9efed4ad30666b94a7efcb8784b1e40fba274d93d4b350880a"
+    },
     "comfyui-api": {
       "source": "mckruz/comfyui-expert",
       "sourceType": "github",
@@ -55,6 +60,16 @@
       "source": "jtydhr88/comfyui-custom-node-skills",
       "sourceType": "github",
       "computedHash": "e7bd8c738165172545376209b09b4bb4a4784744fd70933c694ca1032a3e2caa"
+    },
+    "remotion-best-practices": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "computedHash": "a6a79c92a109339759d7b465f2d45fe11ce955e307a3e2c03fbcf4f9b624b77a"
+    },
+    "ui-demo": {
+      "source": "affaan-m/everything-claude-code",
+      "sourceType": "github",
+      "computedHash": "c76e71afaf194fe147f3f9b3298c8d38105a44ef42295a8ff3a7bc99ea836517"
     }
   }
 }

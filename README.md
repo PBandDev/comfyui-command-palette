@@ -1,6 +1,8 @@
 # ComfyUI Command Palette
 
-A ComfyUI custom node pack that adds a frontend command palette for faster navigation and common actions.
+![ComfyUI Command Palette demo](assets/demo-readme.gif)
+
+A ComfyUI custom node pack that adds a frontend command palette for faster navigation and common actions. Created with [comfyui-custom-node-template](https://github.com/PBandDev/comfyui-custom-node-template).
 
 ## Features
 
@@ -15,14 +17,10 @@ Settings add an adjustable node-jump zoom level and an option to hide API-only n
 
 ## Install
 
-Clone this repository into your ComfyUI `custom_nodes` directory, then build the frontend assets:
-
-```bash
-pnpm install
-pnpm build
-```
-
-Restart ComfyUI after installation.
+1. Open ComfyUI
+2. Go to **Manager > Custom Node Manager**
+3. Search for **ComfyUI Command Palette**
+4. Click **Install**
 
 ## Development
 
@@ -44,15 +42,3 @@ pnpm open:e2e
 
 `pnpm test:e2e` builds the frontend, provisions a scoped ComfyUI install, and runs the Playwright smoke suite.
 `pnpm open:e2e` builds the frontend, provisions the same scoped ComfyUI install, and opens it for manual testing at `http://127.0.0.1:8199`.
-
-## Docs
-
-- [Testing](docs/TESTING.md)
-
-## Publishing
-
-Publishing uses the `Publish to Comfy registry` GitHub workflow. Add `REGISTRY_ACCESS_TOKEN` as a repository secret, then run the workflow from `main`.
-
-## License
-
-AGPL-3.0-only
